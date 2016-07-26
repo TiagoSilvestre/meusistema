@@ -1,3 +1,5 @@
+<?= $this->element('topbar'); ?>
+
 <?php
 if(isset($erro)){echo $erro;}
 ?>

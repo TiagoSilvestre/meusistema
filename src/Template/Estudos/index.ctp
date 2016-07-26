@@ -12,5 +12,3 @@
         <?php endforeach; ?>
     </div>
 </div>
-
-<?php //echo $this->params['controller']; ?>
