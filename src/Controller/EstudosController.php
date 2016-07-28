@@ -58,9 +58,10 @@ class EstudosController extends AppController {
             if ($this->Estudos->save($data)) {
                 $this->Flash->success(__('Your article has been updated.'));
                 return $this->redirect(['action' => 'edit/'.$id]);
-            
+            }else{
+                echo "Nao foi possivel salvar!!";
             }
-            $this->Flash->error(__('Unable to update your article.'));
+            
         }
 
         $this->set('resultView', $data);

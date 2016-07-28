@@ -6,7 +6,6 @@
             <li><a href="/meusistema/estudos">Estudos</a></li>
             <li><a href="/meusistema/estudos/add">AddEstudos</a></li>
             <li><a href="/meusistema/users/logout">SAIR **</a></li>
-            
         </ul>
     </div>
 </nav>
